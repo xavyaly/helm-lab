@@ -1,7 +1,6 @@
 # helm-lab
 
 [Link](https://helm.sh/docs/)
-[UTube](https://www.youtube.com/watch?v=3HqLVgteMrQ)
 
 # Install helm
 ```
@@ -25,23 +24,4 @@ To reinstall 3.12.3, run:
 ```
 $ helm version
 version.BuildInfo{Version:"v3.12.3", GitCommit:"3a31588ad33fe3b89af5a2a54ee1d25bfe6eaa5e", GitTreeState:"clean", GoVersion:"go1.20.7"}
-```
-
-
-```
-$ helm create todo-api
-Creating todo-api
-```
-
-```
-$ cd todo-api/
-```
-
-```
-$ ls -l
-total 16
--rw-r--r--@  1 javedalam  staff  1144 Aug 25 19:47 Chart.yaml
-drwxr-xr-x@  2 javedalam  staff    64 Aug 25 19:47 charts
-drwxr-xr-x@ 10 javedalam  staff   320 Aug 25 19:47 templates
--rw-r--r--@  1 javedalam  staff  1875 Aug 25 19:47 values.yaml
 ```
